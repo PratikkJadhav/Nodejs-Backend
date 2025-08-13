@@ -20,3 +20,5 @@ const uploadFile = async (localFilePath)=>{
         fs.unlinkSync(localFilePath)
     }
 }
+
+export {uploadFile}
